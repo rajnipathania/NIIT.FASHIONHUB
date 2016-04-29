@@ -1,0 +1,14 @@
+<html>
+   <head>
+       <script src="angular.min.js"></script>
+   </head>
+   <body>
+      <div ng-app = "" ng-init = "ar = [{id:1,price:200}, {id:2,price:20}]"> 
+            <p>List of Books</p>
+            <li ng-repeat = "t in ar">
+               {{ 'ID =  ' + t.id + ', Price =  ' + t.price }}
+            </li> 
+         </ol>
+      </div>
+   </body>
+</html>
